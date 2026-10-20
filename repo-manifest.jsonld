@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/PyMySQL/PyMySQL/commit/4399e300fd8f810d84601f8131dde2c57849484b",
       "git:hexsha": "4399e300fd8f810d84601f8131dde2c57849484b",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-20T23:11:19.299529+00:00"
     },
     {
       "@id": "https://repolex.ai/r/PyMySQL/PyMySQL/commit/a4b86e35a3522a5030f2c4d7d9e313c04db72ee4",
