@@ -1,0 +1,11 @@
+{
+  "org": "PyMySQL",
+  "repo": "PyMySQL",
+  "versions": [
+    {
+      "commit": "4399e300fd8f810d84601f8131dde2c57849484b",
+      "tag": "",
+      "parsed_at": "2026-10-20T23:11:19.378515+00:00"
+    }
+  ]
+}
