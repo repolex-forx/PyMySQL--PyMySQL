@@ -244,7 +244,9 @@
           "githubUrl": "https://github.com/pyca/pynacl",
           "source": "build_file:pyproject.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/d7bb777e503d82bf2496113f07dd4ab249615efc/chunk-001.nq.gz",
+      "dep": "dep/d7bb777e503d82bf2496113f07dd4ab249615efc.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
