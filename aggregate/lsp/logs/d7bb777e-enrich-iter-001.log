@@ -1,0 +1,24 @@
+[2026-11-22T03:42:26Z] === ENRICH ITERATION 1 START | repo=PyMySQL/PyMySQL sha=d7bb777e ===
+[2026-11-22T03:42:26Z] [iter=1] PHASE START: enrich repo=PyMySQL/PyMySQL sha=d7bb777e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d7bb777e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d7bb777e503d82bf2496113f07dd4ab249615efc.nq.gz
+[2026-11-22T03:42:28Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T03:42:31Z] [iter=1] AST store loaded triples=340043 load_secs=2 mem_mb=550 MB
+[2026-11-22T03:42:31Z] [iter=1] Step 2: Finding LSP targets mem_mb=550 MB
+[2026-11-22T03:42:31Z] [iter=1] LSP targets found call_sites=2974 imports=114 extends=26 implements=0 secs=1
+[2026-11-22T03:42:32Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=550 MB
+[2026-11-22T03:42:34Z] [iter=1] Position index built positions=22486 nodes_with_types=29857 secs=2 mem_mb=550 MB
+[2026-11-22T03:42:34Z] [iter=1] Step 3: Starting LSP resolution mem_mb=550 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T03:42:34Z] [iter=1] Resolving target type target_type=call_site count=2974
+[2026-11-22T03:43:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=1 resolved=288 errors=0 current=pymysql/tests/test_basic.py
+[2026-11-22T03:44:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.6 files_done=4 resolved=849 errors=0 current=pymysql/tests/thirdparty/test_MySQLdb/dbapi20.py
+[2026-11-22T03:44:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=6 resolved=1347 errors=0 current=pymysql/_auth.py
+[2026-11-22T03:45:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=8 resolved=1759 errors=0 current=pymysql/tests/thirdparty/test_MySQLdb/capabilities.py
+[2026-11-22T03:45:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=15 resolved=2230 errors=0 current=pymysql/tests/test_SSCursor.py
+[2026-11-22T03:46:21Z] [iter=1] Target type resolved target_type=call_site resolved=2636 errors=0 secs=227 mem_mb=550 MB
+[2026-11-22T03:46:21Z] [iter=1] Resolving target type target_type=import_statement count=114
+[2026-11-22T03:46:21Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=3.9 files_done=0 resolved=0 errors=0 current=pymysql/tests/test_DictCursor.py
+[2026-11-22T03:46:23Z] [iter=1] Target type resolved target_type=import_statement resolved=103 errors=0 secs=2 mem_mb=550 MB
+[2026-11-22T03:46:23Z] [iter=1] Resolving target type target_type=extends_clause count=26
+[2026-11-22T03:46:25Z] [iter=1] Target type resolved target_type=extends_clause resolved=26 errors=0 secs=2 mem_mb=550 MB
+[2026-11-22T03:48:24Z] [iter=1] Step 5: Writing final enrichment file triples=39144
+[2026-11-22T03:48:24Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d7bb777e503d82bf2496113f07dd4ab249615efc.nq.gz size_kb=743
+[2026-11-22T03:48:24Z] [iter=1] PHASE END: enrich elapsed_s=358 elapsed_min=6.0 total_triples=39144

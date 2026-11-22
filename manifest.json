@@ -219,6 +219,31 @@
       ],
       "ast": [
         "aggregate/ast/d7bb777e503d82bf2496113f07dd4ab249615efc/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d7bb777e503d82bf2496113f07dd4ab249615efc.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "cryptography",
+          "ecosystem": "PYPI",
+          "version": "50.0.2",
+          "githubOrg": "pyca",
+          "githubRepo": "cryptography",
+          "githubCommit": "4dda5c7fe4ae71b8925f2551910a0ef959df9c7a",
+          "githubTag": "50.0.2",
+          "githubUrl": "https://github.com/pyca/cryptography",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pynacl",
+          "ecosystem": "PYPI",
+          "version": "1.4.0",
+          "githubOrg": "pyca",
+          "githubRepo": "pynacl",
+          "githubCommit": "58d40e6bdba7c3a064bff954bfaa7a48c114773a",
+          "githubTag": "1.4.0",
+          "githubUrl": "https://github.com/pyca/pynacl",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
