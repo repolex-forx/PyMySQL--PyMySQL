@@ -3,6 +3,11 @@
   "repo": "PyMySQL",
   "versions": [
     {
+      "commit": "d7bb777e503d82bf2496113f07dd4ab249615efc",
+      "tag": "v1.1.2",
+      "parsed_at": "2026-11-22T03:51:45.264854+00:00"
+    },
+    {
       "commit": "4399e300fd8f810d84601f8131dde2c57849484b",
       "tag": "",
       "parsed_at": "2026-10-20T23:11:19.378515+00:00"
